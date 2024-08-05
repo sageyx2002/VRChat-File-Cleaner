@@ -5,14 +5,14 @@ Turns out VRChat stores a bunch of data on your machine that is not removed. You
 
 ### Directories
 - `%temp%\VRChat`
-- `%UserProfile%\AppData\LocalLow\VRChat\VRChat`
+- `%UserProfile%\AppData\LocalLow\VRChat`
 
 Assuming your Installation is on the `C:\` drive and your username is `User` the full paths would resolve to
 - `C:\Users\User\AppData\Local\Temp\VRChat`
   - This folder contains crash reports and analytics created by VRChat.
 - `C:\Users\User\AppData\LocalLow\VRChat`
   - This folder contains logs, configs, caches, OSC settings and more.
-  - **Note:** If you have used the [ToN Save Manager](https://github.com/ChrisFeline/ToNSaveManager) before, this script will only remove the `\VRChat\VRChat` folder as the Save Manager saves its data within `\VRChat\ToNSaveManager\`
+  - **Note:** If you have used the [ToN Save Manager](https://github.com/ChrisFeline/ToNSaveManager) before, this script will only remove the `\VRChat` child folder contained within this folder, to avoid deleting your saves.
 
 ### Registry Directory
 - `HKEY_CURRENT_USER\SOFTWARE\VRChat`
