@@ -7,8 +7,15 @@ if %errorlevel% NEQ 0 (
     pause >nul
     exit
 )
-rmdir /s /q "%LocalAppData%\Temp\VRChat" 
-rmdir /s /q "%UserProfile%\LocalLow\VRChat"
-REG DELETE "HKEY_CURRENT_USER\SOFTWARE\VRChat" /f
+rmdir /s /q "%LocalAppData%\Temp\VRChat" && echo Deleting Temporary Data... || echo An error occurred and the directory could not be deleted!
+if exist "%UserProfile%\AppData\LocalLow\VRChat\ToNSaveManager\" (
+    echo ToN Save Manager directory found! Deleting child directory instead.
+    rmdir /s /q "%UserProfile%\AppData\LocalLow\VRChat\VRChat" && echo Deleting Local User Data... || echo An error occurred and the directory could not be deleted!
+) else (
+    rmdir /s /q "%UserProfile%\AppData\LocalLow\VRChat" && echo Deleting Local User Data... || echo An error occurred and the directory could not be deleted!
+)
+REG DELETE "HKEY_CURRENT_USER\SOFTWARE\VRChat" /f && echo Deleting Registry Keys... || echo An error occurred and the Registry Keys could not be deleted!
+echo.
+echo Done!
 pause
 exit
