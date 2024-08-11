@@ -19,3 +19,15 @@ Assuming your Installation is on the `C:\` drive and your username is `User` the
 
 This script was tested both on Windows 10 and Windows 11 as of August 2024, and should remain in working condition for a while. This repository will receive updates when needed.
 Feel free to open an issue if you want to report bugs or fork and send a pull request if you want to contribute.
+
+# How to use
+- Download the `run.bat` file from the [latest release](https://github.com/sageyx2002/VRChat-File-Cleaner/releases) and add it to a directory
+- Right click the file and select the "Run as administrator" option
+  - Note: The script needs administrative permission to delete the registry folder
+- Wait for the script to finish executing, check the logs on screen if everything was deleted properly
+- Close the console window or file a bug report should you encounter any
+
+**[Virustotal Link](https://www.virustotal.com/gui/file/dc80b0d51139abb8a9fce916244a2a50dc8fbee621abc5f5c210b7e18ba65b1d)**
+
+**MD5 Checksum:** `2894a7fbacfe678fcb58aeee220b2a31`\
+**SHA-256 Checksum:** `dc80b0d51139abb8a9fce916244a2a50dc8fbee621abc5f5c210b7e18ba65b1d`
