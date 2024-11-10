@@ -11,7 +11,6 @@ Assuming your Installation is on the `C:\` drive and your username is `User` the
   - This folder contains crash reports and analytics created by VRChat.
 - `C:\Users\User\AppData\LocalLow\VRChat`
   - This folder contains logs, configs, caches, OSC settings and more.
-  - **Note:** If you have used the [ToN Save Manager](https://github.com/ChrisFeline/ToNSaveManager) before, this script will only remove the `\VRChat` child folder contained within this folder, to avoid deleting your saves.
 
 ### Registry Directory
 - `HKEY_CURRENT_USER\SOFTWARE\VRChat`
@@ -27,7 +26,7 @@ Feel free to open an issue if you want to report bugs or fork and send a pull re
 - Wait for the script to finish executing, check the logs on screen if everything was deleted properly
 - Close the console window or file a bug report should you encounter any
 
-**[Virustotal Link](https://www.virustotal.com/gui/file/dc80b0d51139abb8a9fce916244a2a50dc8fbee621abc5f5c210b7e18ba65b1d)**
+**[Virustotal Link](https://www.virustotal.com/gui/file/a01536c7b9c03fc65e01ccb9c08461dc58f822ff7ab75cdbb72958b881b3f0ce)**
 
-**MD5 Checksum:** `2894a7fbacfe678fcb58aeee220b2a31`\
-**SHA-256 Checksum:** `dc80b0d51139abb8a9fce916244a2a50dc8fbee621abc5f5c210b7e18ba65b1d`
+**MD5 Checksum:** `3b51b8770e220827e93e542e47794faa`\
+**SHA-256 Checksum:** `a01536c7b9c03fc65e01ccb9c08461dc58f822ff7ab75cdbb72958b881b3f0ce`
